@@ -11,8 +11,14 @@ body{
     color:orange;
 }
 
-#top-banner{
+.flex-banner{
     display: flex;
+    margin-bottom: 40px;
+}
+.top-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    /* background-position: top left; */
 }
 .half-part{
 
@@ -23,7 +29,10 @@ body{
 
 .half-part img{
     width: 80%;
+}
+.top-img{
     margin-top: 50px;
+
 }
 h1{
     font-size: 45px;
@@ -37,7 +46,7 @@ h2{
     padding: 70px;
 }
 #wlcm{
-    color:rgba(255, 99, 71, 0.822);
+    color:rgb(36 53 58 / 77%);
 }
 
 h3{
@@ -57,6 +66,19 @@ p{
     font-weight: 600;
     background-image: linear-gradient(orange,tomato);
     border-radius:5px;
-    padding:3px 30px;
+    padding:7px 30px;
     text-transform: uppercase;
+}
+
+.dream-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 5%;
+}
+.dream-banner .half-part{
+    width: 40%;
+    /* border: 2px solid rebeccapurple; */
+
+
 }
