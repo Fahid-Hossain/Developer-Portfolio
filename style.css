@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* /////////////Top banner section//////////// */
 
 .orange-color{
     color:orange;
@@ -13,7 +14,7 @@ body{
 
 .flex-banner{
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 74px;
 }
 .top-banner{
     background-image: url("images/exp-bg.png");
@@ -36,17 +37,15 @@ body{
 }
 h1{
     font-size: 45px;
-    padding-left: 100px;
-}
-h2{
-    font-size: 50px;
+    padding-left: 92px;
 }
 
 .myself{
     padding: 70px;
 }
-#wlcm{
+.wlcm{
     color:rgb(36 53 58 / 77%);
+    font-size: 50px;
 }
 
 h3{
@@ -55,7 +54,7 @@ h3{
 p{
     margin: 10px 0px;
 }
-#my-world{
+.my-world{
     padding-left: 200px;
 }
 
@@ -70,6 +69,8 @@ p{
     text-transform: uppercase;
 }
 
+/* ////////////dream box //////////////// */
+
 .dream-banner{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
@@ -81,4 +82,26 @@ p{
     /* border: 2px solid rebeccapurple; */
 
 
+}
+
+/* ///////////experience section/////////// */
+.experience{
+    width: 95%;
+    margin-top: 20px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    margin-left: 0;
+    background-position: left bottom;
+    
+}
+.experience-sec{
+    /* border: 2px solid black; */
+    margin-left: 6%;
+    box-shadow: 10px 10px 40px gray;
+    padding-bottom: 25px;
+    padding-right: 10px;
+}
+
+.exp-head{
+    font-size: 35px;
 }
