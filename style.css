@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.orange-color{
+    color:orange;
+}
+
+#top-banner{
+    display: flex;
+}
+.half-part{
+
+    width: 50%;
+    padding-left: 50px;
+    padding-top:30px;
+}
+
+.half-part img{
+    width: 80%;
+}
+h1{
+    font-size: 45px;
+    padding-left: 100px;
+}
+h2{
+    font-size: 50px;
+}
+
+.myself{
+    padding: 70px;
+}
+
+
+h3{
+    margin-top: 20px;
+}
+p{
+    margin-top: 10px;
+}
+#my-world{
+    padding-left: 200px;
+}
