@@ -105,3 +105,24 @@ p{
 .exp-head{
     font-size: 35px;
 }
+
+#full-stack-dev{
+    border-left:6px solid red;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;;
+
+}
+#baby-dev{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+    /* border-image-outset: 5px; */
+
+}
+
+
+footer p{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
