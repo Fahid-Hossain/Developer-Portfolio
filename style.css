@@ -41,8 +41,19 @@ h3{
     margin-top: 20px;
 }
 p{
-    margin-top: 10px;
+    margin: 10px 0px;
 }
 #my-world{
     padding-left: 200px;
+}
+
+
+.link-btn{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    background-image: linear-gradient(orange,tomato);
+    border-radius:5px;
+    padding:3px 30px;
+    text-transform: uppercase;
 }
