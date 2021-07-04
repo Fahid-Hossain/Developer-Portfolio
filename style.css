@@ -23,6 +23,7 @@ body{
 
 .half-part img{
     width: 80%;
+    margin-top: 50px;
 }
 h1{
     font-size: 45px;
@@ -35,7 +36,9 @@ h2{
 .myself{
     padding: 70px;
 }
-
+#wlcm{
+    color:rgba(255, 99, 71, 0.822);
+}
 
 h3{
     margin-top: 20px;
